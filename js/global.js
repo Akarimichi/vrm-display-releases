@@ -14,7 +14,7 @@ $('.btn-share').on('click', function (e) {
     
         case 'facebook':
 
-            urlToShare = 'https://www.facebook.com/sharer.php?u=' + encodeURIComponent(currentUrl) + '&hashtag=' + encodeURIComponent(hashtags);
+            urlToShare = 'https://www.facebook.com/sharer.php?u=' + encodeURIComponent(currentUrl) ;
             break;
     }
     
