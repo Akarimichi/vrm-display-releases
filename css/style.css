@@ -1,0 +1,144 @@
+h1,h2,h3,h4,h5,h6,body,p{
+    font-family: 'Lato', sans-serif!important;
+    font-weight: 300!important;
+}
+
+
+/* --- BANNER --- */
+
+.banner-ctn{
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-ctn .img-banner{
+    max-height: 290px;
+}
+
+.banner-ctn .banner-bg{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.banner-ctn .banner-title-ctn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.banner-ctn .banner-title-ctn .logo{
+    width: 130px;
+}
+
+.banner-ctn .banner-title-ctn .banner-title{
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.banner-ctn .banner-title-ctn .banner-title span{
+    display: block;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: #1e87f0;
+}
+
+.navbar-ctn{
+    z-index: 9;
+    position: absolute;
+}
+
+.uk-navbar-nav li a{
+    color: #fff!important;
+}
+
+.uk-navbar-nav{
+    background: transparent!important;
+}
+
+
+/* --- BODY --- */
+
+.body-content{
+    margin-top: 80px;
+}
+
+.btn-slide-menu{
+    color: #666!important;
+}
+
+.menu-ctn{
+    position: relative;
+}
+
+/* --- PRESENTATION --- */
+
+.presentation-ctn .uk-card{
+    text-align: center;
+    min-height: 375px;
+}
+
+.presentation-ctn .uk-animation-scale-up:last-child .uk-card i{
+    font-size: 60px;
+}
+
+.presentation-ctn .uk-animation-scale-up:last-child .uk-card{
+    min-height: 200px;
+}
+
+
+/* --- DOWNLOAD --- */
+
+.download-ctn{
+    margin-top: 60px;
+}
+
+
+/* --- SHARE --- */
+
+.share-ctn{
+    margin-top: 40px;
+    margin-bottom: 40px!important;
+}
+
+.btn-share[data-type="twitter"]{
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+}
+
+.btn-share[data-type="twitter"]:hover{
+    background-color: rgb(26, 145, 218);
+}
+
+
+.btn-share[data-type="facebook"]{
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.btn-share[data-type="facebook"]:hover{
+    background-color: #365899;
+}
+
+img{
+    max-height: 200px;
+}
+
+
+@media (max-width: 860px) {
+    
+    .banner-ctn .img-banner{
+        width: 700px;
+        max-width: inherit;
+    }
+
+}
