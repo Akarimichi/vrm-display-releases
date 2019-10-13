@@ -20,3 +20,15 @@ $('.btn-share').on('click', function (e) {
     
     window.open(urlToShare, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
 });
+
+function getLastVersion() {
+    $.ajax({
+        type: 'GET',
+        url: 'https://api.github.com/repos/Akarimichi/vrm-display-releases/releases/latest',
+        success: function (response) {
+            $('.git-tag-version').text(response.tag_name);
+            $('.btn-download').attr('href', 'https://github.com/Akarimichi/vrm-display-releases/releases/download/' + response.tag_name + '/VRM-Display-Setup-' + response.name+'.exe');
+        }
+    });
+}
+getLastVersion();
