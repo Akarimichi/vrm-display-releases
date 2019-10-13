@@ -1,7 +1,7 @@
 //Share 
 $('.btn-share').on('click', function (e) {
 
-    var currentUrl = window.location.href;
+    var currentUrl = 'https://akarimichi.github.io/vrm-display-releases/';
     var urlToShare = '';
 
     switch ($(this).data('type')) {
