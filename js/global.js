@@ -2,18 +2,19 @@
 $('.btn-share').on('click', function (e) {
 
     var currentUrl = 'https://akarimichi.github.io/vrm-display-releases/';
+    var hashtags = 'VRMDisplay,VRM';
     var urlToShare = '';
 
     switch ($(this).data('type')) {
         case 'twitter':
 
-            var hashtags = 'VRMDisplay,VRM';
             urlToShare = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(currentUrl) + '&hashtags=' + encodeURIComponent(hashtags);
 
             break;
     
         case 'facebook':
 
+            urlToShare = 'http://www.facebook.com/sharer/sharer.php&u=' + encodeURIComponent(currentUrl) + '&hashtag=' + encodeURIComponent(hashtags);
             break;
     }
     
