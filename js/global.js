@@ -27,7 +27,7 @@ function getLastVersion() {
         url: 'https://api.github.com/repos/Akarimichi/vrm-display-releases/releases/latest',
         success: function (response) {
             $('.git-tag-version').text(response.tag_name);
-            $('.btn-download').attr('href', 'https://github.com/Akarimichi/vrm-display-releases/releases/download/' + response.tag_name + '/VRM-Display-Setup-' + response.name+'.exe');
+            $('.btn-download').attr('href', 'https://github.com/Akarimichi/vrm-display-releases/releases/download/' + response.tag_name + '/vrm-display-' + response.tag_name +'.zip');
         }
     });
 }
