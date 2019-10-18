@@ -142,3 +142,15 @@ img{
     }
 
 }
+
+/* --- LANGUAGE --- */
+
+.language-selector{
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.language-selector .lang.active{
+    font-weight: bold;
+}

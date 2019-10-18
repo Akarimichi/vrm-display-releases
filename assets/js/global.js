@@ -1,7 +1,7 @@
 //Share 
 $('.btn-share').on('click', function (e) {
 
-    var currentUrl = 'https://akarimichi.github.io/vrm-display-releases/';
+    var currentUrl = window.location.href;
     var hashtags = 'VRMDisplay,VRM';
     var urlToShare = '';
 
@@ -33,4 +33,16 @@ function getLastVersion() {
 }
 getLastVersion();
 
-console.log(window.location)
+//Change language
+
+$('.language-selector .lang[data-lang="' + $('html').attr('lang') + '"]').addClass('active');
+
+$(document).on('click', '.language-selector .lang', function (event) {
+    var url = document.location.href;
+    var locale = $('.language-selector .lang.active').data('lang');
+    var newSelectedLanguage = $(this).data('lang');
+
+    var newUrl = url.replace('/' + locale + '/', '/' + newSelectedLanguage + '/');
+
+    window.location.href = newUrl;
+});
