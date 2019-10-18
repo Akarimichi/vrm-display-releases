@@ -32,3 +32,5 @@ function getLastVersion() {
     });
 }
 getLastVersion();
+
+console.log(window.location)

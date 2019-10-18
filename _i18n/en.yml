@@ -1,0 +1,15 @@
+update:
+    majV0-0-1-f1: Adding English and French translations
+    majV0-0-1-f2: Adding the gallery with search
+    majV0-0-1-f3: Adding the character preview
+    majV0-0-2-f1: Adding the patch notes in the software information tab
+    majV0-0-2-f2: Adding the drag and drop functionality
+    majV0-0-2-f3: Ability to open a file with the file explorer
+    majV0-0-3-f1: Adding japanese translations
+    majV0-0-4-f1: Adding theme color change
+
+global:
+    update: update
+    
+home:
+    widg: Dark and light theme adapted to Windows.

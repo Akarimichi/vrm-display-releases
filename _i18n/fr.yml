@@ -1,0 +1,15 @@
+update:
+    majV0-0-1-f1: Ajout des traductions anglaises et françaises
+    majV0-0-1-f2: Ajout de la galerie avec recherche
+    majV0-0-1-f3: Ajout de la prévisualisation de personnage
+    majV0-0-2-f1: Ajout du patch notes dans l'onglet des informations sur le logiciel
+    majV0-0-2-f2: Ajout de la fonctionnalité glisser-déposer
+    majV0-0-2-f3: Possibilité d'ouvrir un fichier avec l'explorateur de dossier
+    majV0-0-3-f1: Ajout de la traduction japonaise
+    majV0-0-4-f1: Ajout du changement de couleur de thème
+
+global:
+    update: Mise à jour
+
+home:
+    widg: Thème sombre et clair adapté à Windows.
