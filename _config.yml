@@ -1,9 +1,0 @@
-plugins:
-  - jekyll-multiple-languages-plugin
-languages: ['en', 'fr','ja']
-exclude_from_localizations: ["assets"]
-defaultLang: en
-languageNames:
-  fr: French
-  en: English
-  ja: Japanese
