@@ -154,3 +154,13 @@ img{
 .language-selector .lang.active{
     font-weight: bold;
 }
+
+.page-choose-language{
+    padding-top: 130px;
+    min-height: 70vh;
+}
+
+.page-choose-language a{
+    padding: 15px;
+    font-size: 20px;
+}
